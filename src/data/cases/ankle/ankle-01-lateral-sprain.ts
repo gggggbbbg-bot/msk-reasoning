@@ -167,6 +167,12 @@ export const ankle01: Case = {
 
   diagnosis: {
     primary: 'Acute right Grade II lateral ankle ligament sprain (ATFL ± CFL), no fracture (Ottawa rules negative), no syndesmotic involvement.',
+    keyElements: [
+      { label: 'Lateral ligament (ATFL/CFL)', synonyms: ['lateral', 'atfl', 'cfl'], hint: 'Which ligament complex?' },
+      { label: 'Sprain', synonyms: ['sprain', 'ligament injury'], hint: 'What injury type?' },
+      { label: 'Fracture excluded (Ottawa)', synonyms: ['no fracture', 'ottawa', 'not fractured', 'fracture excluded'], hint: 'Did you rule out fracture?' },
+      { label: 'Grade / severity', synonyms: ['grade ii', 'grade 2', 'grade two', 'moderate'], hint: 'Estimate the grade.' },
+    ],
     differentialsExcluded: [
       'Lateral malleolar fracture (Ottawa rules negative)',
       'Syndesmotic injury (negative squeeze; mechanism mismatch)',

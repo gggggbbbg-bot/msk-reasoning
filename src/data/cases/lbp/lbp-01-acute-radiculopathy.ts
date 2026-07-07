@@ -227,6 +227,12 @@ export const lbp01: Case = {
 
   diagnosis: {
     primary: 'Acute right L5 radiculopathy from posterolateral L4–L5 disc lesion (no red flags, no severe motor loss).',
+    keyElements: [
+      { label: 'Spinal level (L5)', synonyms: ['l5', 'l4-l5', 'l4/5', 'l4-5', 'l4/l5'], hint: 'Which nerve root / level is involved?' },
+      { label: 'Radicular / nerve-root involvement', synonyms: ['radiculopath', 'radicular', 'nerve root', 'sciatic'], hint: 'Is this radicular (nerve root) or somatic referred pain?' },
+      { label: 'Disc-related mechanism', synonyms: ['disc', 'disk', 'herniat', 'prolaps', 'discogenic'], hint: 'What structure is likely driving it?' },
+      { label: 'Red flags addressed / cauda equina excluded', synonyms: ['no red flag', 'red flag', 'cauda', 'no serious'], hint: 'Did you comment on red flags / cauda equina?' },
+    ],
     differentialsExcluded: [
       'Cauda equina syndrome (no saddle anaesthesia, no bladder/bowel signs, unilateral)',
       'Spinal infection / malignancy (no constitutional signs, no night pain)',

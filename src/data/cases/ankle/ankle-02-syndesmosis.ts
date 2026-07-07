@@ -171,6 +171,11 @@ export const ankle02: Case = {
 
   diagnosis: {
     primary: 'Right distal syndesmotic (high ankle) sprain (Grade I–II) without diastasis on x-ray.',
+    keyElements: [
+      { label: 'Syndesmotic / high ankle', synonyms: ['syndesmo', 'high ankle', 'aitfl', 'tibiofibular'], hint: 'Which structure? (mechanism is DF-eversion)' },
+      { label: 'Sprain', synonyms: ['sprain'], hint: 'What injury type?' },
+      { label: 'Fracture / Maisonneuve excluded', synonyms: ['no fracture', 'maisonneuve', 'no diastasis', 'fracture excluded'], hint: 'Did you exclude fracture / Maisonneuve?' },
+    ],
     differentialsExcluded: [
       'Lateral ankle sprain (negative AD; mechanism mismatch)',
       'Maisonneuve fracture (no proximal fibular tenderness)',

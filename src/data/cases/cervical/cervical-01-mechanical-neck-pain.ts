@@ -172,6 +172,12 @@ export const cervical01: Case = {
 
   diagnosis: {
     primary: 'Mechanical neck pain with mobility deficits (JOSPT 2017 Group 1), R-sided, mild-moderate disability (NDI 14).',
+    keyElements: [
+      { label: 'Mechanical neck pain', synonyms: ['mechanical', 'neck pain'], hint: 'Name the pain type.' },
+      { label: 'Mobility deficit (JOSPT Group 1)', synonyms: ['mobility', 'stiff', 'hypomobil', 'rotation deficit', 'restricted', 'reduced rotation'], hint: 'What impairment classification?' },
+      { label: 'Radiculopathy excluded', synonyms: ['no arm', 'non-radicular', 'no radiculopathy', 'not radicular'], hint: 'Did you exclude nerve-root involvement?' },
+      { label: 'Postural / desk contribution', synonyms: ['postur', 'desk', 'forward head', 'ergonom'], hint: 'What contributing factor?' },
+    ],
     differentialsExcluded: [
       'Cervical radiculopathy (no arm pain, Spurling negative)',
       'Cervical myelopathy (no long-tract signs)',

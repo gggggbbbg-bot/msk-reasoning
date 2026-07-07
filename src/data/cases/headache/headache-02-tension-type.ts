@@ -149,6 +149,12 @@ export const headache02: Case = {
 
   diagnosis: {
     primary: 'Frequent episodic tension-type headache (ICHD-3 2.2.1) with pericranial tenderness; analgesic use within safe range but to be monitored.',
+    keyElements: [
+      { label: 'Tension-type headache', synonyms: ['tension-type', 'tension type', 'tth', 'tension headache'], hint: 'What headache classification?' },
+      { label: 'Bilateral', synonyms: ['bilateral', 'both side'], hint: 'What is the laterality?' },
+      { label: 'Pericranial tenderness', synonyms: ['pericranial', 'tender'], hint: 'What key exam finding supports it?' },
+      { label: 'Episodic / frequency noted', synonyms: ['episodic', 'frequent', 'days per month', 'days/month'], hint: 'Note the frequency pattern.' },
+    ],
     differentialsExcluded: [
       'Migraine without aura (no autonomic features, mild intensity, bilateral pressing)',
       'Cervicogenic headache (FRT symmetrical, AROM full, no segmental reproduction)',

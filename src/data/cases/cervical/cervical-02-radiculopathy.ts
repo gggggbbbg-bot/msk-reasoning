@@ -183,6 +183,11 @@ export const cervical02: Case = {
 
   diagnosis: {
     primary: 'Right C6 cervical radiculopathy (Wainner CPR positive on 4/4: rotation <60°, Spurling, distraction, ULTT). Mild C6 motor and sensory deficit, no myelopathy.',
+    keyElements: [
+      { label: 'Level C6', synonyms: ['c6', 'c5-c6', 'c5/6', 'c5-6', 'c5/c6'], hint: 'Which level / root?' },
+      { label: 'Radiculopathy', synonyms: ['radiculopath', 'radicular', 'nerve root'], hint: 'Radicular or not?' },
+      { label: 'Myelopathy excluded', synonyms: ['no myelopath', 'not myelopath', 'myelopathy excluded', 'no long tract', 'hoffman negative', 'negative hoffman'], hint: 'Did you exclude myelopathy?' },
+    ],
     differentialsExcluded: [
       'Cervical myelopathy (negative Hoffman/Babinski; no long-tract signs)',
       'Cervical artery dysfunction (negative IFOMPT screen)',

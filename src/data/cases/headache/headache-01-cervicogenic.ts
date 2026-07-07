@@ -165,6 +165,12 @@ export const headache01: Case = {
 
   diagnosis: {
     primary: 'Cervicogenic headache (ICHD-3 11.2.1) — right side, upper cervical (C1–C2 + C2–C3) involvement, with deep cervical flexor deficit.',
+    keyElements: [
+      { label: 'Cervicogenic headache', synonyms: ['cervicogenic', 'cgh'], hint: 'What headache classification (ICHD-3)?' },
+      { label: 'Upper cervical source (C1–C3)', synonyms: ['c1-c2', 'c1/c2', 'c2-c3', 'upper cervical', 'c1-2', 'c2-3', 'c0-c3'], hint: 'Where is the cervical source?' },
+      { label: 'Unilateral / side-locked', synonyms: ['unilateral', 'side-lock', 'side lock', 'one-sided', 'one side', 'right-sided', 'right side'], hint: 'What is the laterality pattern?' },
+      { label: 'Migraine / TTH excluded', synonyms: ['not migraine', 'no migraine', 'not tension', 'no aura'], hint: 'Did you distinguish it from migraine / TTH?' },
+    ],
     differentialsExcluded: [
       'Migraine without aura (lacks autonomic features, side-locked)',
       'Tension-type headache (unilateral, movement-triggered)',

@@ -177,6 +177,12 @@ export const lbp02: Case = {
 
   diagnosis: {
     primary: 'Chronic non-specific LBP with high psychosocial risk (yellow flags +ve, no red flags).',
+    keyElements: [
+      { label: 'Non-specific', synonyms: ['non-specific', 'nonspecific', 'non specific'], hint: 'Can you attribute it to a specific structure?' },
+      { label: 'Chronic / persistent', synonyms: ['chronic', 'persistent', 'long-standing', 'longstanding', '3 month', 'months'], hint: 'Note the duration / chronicity.' },
+      { label: 'Psychosocial drivers (yellow flags)', synonyms: ['psychosocial', 'yellow flag', 'fear', 'kinesiophob', 'catastroph', 'fear-avoidance', 'fear avoidance'], hint: 'What non-tissue factors are driving this?' },
+      { label: 'Serious / radicular pathology excluded', synonyms: ['no red flag', 'non-radicular', 'no radiculopathy', 'not radicular', 'no leg pain'], hint: 'Did you rule out radiculopathy / red flags?' },
+    ],
     differentialsExcluded: [
       'Lumbar radiculopathy (no leg pain, neuro normal, SLR negative)',
       'Lumbar canal stenosis (no neurogenic claudication; sitting-aggravated)',

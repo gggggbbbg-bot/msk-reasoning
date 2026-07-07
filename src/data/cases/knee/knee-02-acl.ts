@@ -177,6 +177,12 @@ export const knee02: Case = {
 
   diagnosis: {
     primary: 'Right ACL rupture (high probability based on mechanism + Lachman positive + haemarthrosis), with possible medial meniscal tear (to confirm).',
+    keyElements: [
+      { label: 'ACL', synonyms: ['acl', 'anterior cruciate'], hint: 'Which ligament?' },
+      { label: 'Rupture / tear', synonyms: ['ruptur', 'tear', 'torn'], hint: 'What injury type?' },
+      { label: 'Supporting signs (haemarthrosis / pivot / Lachman)', synonyms: ['haemarthrosis', 'hemarthrosis', 'effusion', 'pivot', 'non-contact', 'pop', 'lachman'], hint: 'What findings support it?' },
+      { label: 'Meniscal co-injury considered', synonyms: ['meniscal', 'meniscus'], hint: 'Any likely co-injury?' },
+    ],
     differentialsExcluded: [
       'Bony injury (Ottawa rules negative; x-ray clear)',
       'MCL injury (negative valgus)',

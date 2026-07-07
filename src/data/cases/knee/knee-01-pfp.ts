@@ -169,6 +169,12 @@ export const knee01: Case = {
 
   diagnosis: {
     primary: 'Right patellofemoral pain (clinical), driven by training-load error and hip strength deficit, with quadriceps tightness.',
+    keyElements: [
+      { label: 'Patellofemoral pain', synonyms: ['patellofemoral', 'pfp', 'anterior knee'], hint: 'Name the condition.' },
+      { label: 'Training-load error', synonyms: ['load', 'training', 'overload', 'overuse', 'mileage'], hint: 'What is the main modifiable driver?' },
+      { label: 'Hip strength / kinematics', synonyms: ['hip', 'abductor', 'valgus', 'gluteal'], hint: 'What proximal contributor?' },
+      { label: 'Intra-articular / meniscal excluded', synonyms: ['no effusion', 'not meniscal', 'no meniscus', 'non-mechanical'], hint: 'Did you exclude intra-articular pathology?' },
+    ],
     differentialsExcluded: [
       'Patellar tendinopathy (no focal inferior pole tenderness)',
       'Meniscal tear (no locking, McMurray negative)',

@@ -107,6 +107,12 @@ export interface ManagementItem {
   evidenceRefs: string[];
 }
 
+export interface DiagnosisKeyElement {
+  label: string;
+  synonyms: string[];
+  hint: string;
+}
+
 export interface Case {
   id: string;
   region: Region;
@@ -143,6 +149,7 @@ export interface Case {
     primary: string;
     differentialsExcluded: string[];
     reasoning: string;
+    keyElements?: DiagnosisKeyElement[];
   };
 
   icf: ICFProblemList;
