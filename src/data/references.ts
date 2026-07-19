@@ -145,6 +145,161 @@ export const REFERENCES: Record<string, EvidenceRef> = {
     citation: 'Magee DJ. Orthopedic Physical Assessment, 7th ed. Ch. 12: Knee. Elsevier 2021.',
     level: 'Textbook',
   },
+  'NASS-LSS-2011': {
+    id: 'NASS-LSS-2011',
+    citation:
+      'Kreiner DS et al. An evidence-based clinical guideline for the diagnosis and treatment of degenerative lumbar spinal stenosis (update). North American Spine Society. Spine J 2013;13(7):734–743.',
+    doi: '10.1016/j.spinee.2012.11.059',
+    level: 'CPG',
+  },
+  'TOMKINS-LANE-2016': {
+    id: 'TOMKINS-LANE-2016',
+    citation:
+      'Tomkins-Lane C et al. ISSLS Prize Winner: Consensus on the Clinical Diagnosis of Lumbar Spinal Stenosis. Spine 2016;41(15):1239–1246.',
+    doi: '10.1097/BRS.0000000000001476',
+    level: 'Expert',
+  },
+  'DELITTO-LSS-2015': {
+    id: 'DELITTO-LSS-2015',
+    citation:
+      'Delitto A et al. Surgery versus nonsurgical treatment of lumbar spinal stenosis: a randomized trial. Ann Intern Med 2015;162(7):465–473.',
+    doi: '10.7326/M14-1420',
+    level: 'RCT',
+  },
+  'AMMENDOLIA-2013': {
+    id: 'AMMENDOLIA-2013',
+    citation:
+      'Ammendolia C et al. Nonoperative treatment for lumbar spinal stenosis with neurogenic claudication. Cochrane Database Syst Rev 2013;(8):CD010712.',
+    doi: '10.1002/14651858.CD010712',
+    level: 'SR',
+  },
+  'SIRA-WAD-2014': {
+    id: 'SIRA-WAD-2014',
+    citation:
+      'State Insurance Regulatory Authority (NSW). Guidelines for the management of acute whiplash-associated disorders for health professionals. 3rd ed. Sydney: SIRA 2014.',
+    url: 'https://www.sira.nsw.gov.au/',
+    level: 'CPG',
+  },
+  'WHIPPREDICT-2013': {
+    id: 'WHIPPREDICT-2013',
+    citation:
+      'Ritchie C, Hendrikz J, Kenardy J, Sterling M. Derivation of a clinical prediction rule to identify both chronic moderate/severe disability and full recovery following whiplash injury. Pain 2013;154(10):2198–2206.',
+    doi: '10.1016/j.pain.2013.07.001',
+    level: 'Cohort',
+  },
+  'MICHALEFF-2014': {
+    id: 'MICHALEFF-2014',
+    citation:
+      'Michaleff ZA et al. Comprehensive physiotherapy exercise programme or advice for chronic whiplash (PROMISE): a pragmatic randomised controlled trial. Lancet 2014;384(9938):133–141.',
+    doi: '10.1016/S0140-6736(14)60457-8',
+    level: 'RCT',
+  },
+  'LUEDTKE-2016': {
+    id: 'LUEDTKE-2016',
+    citation:
+      'Luedtke K et al. Efficacy of interventions used by physiotherapists for patients with headache and migraine — systematic review and meta-analysis. Cephalalgia 2016;36(5):474–492.',
+    doi: '10.1177/0333102415597889',
+    level: 'SR',
+  },
+  'DO-SNNOOP10-2019': {
+    id: 'DO-SNNOOP10-2019',
+    citation:
+      'Do TP et al. Red and orange flags for secondary headaches in clinical practice: SNNOOP10 list. Neurology 2019;92(3):134–144.',
+    doi: '10.1212/WNL.0000000000006697',
+    level: 'Expert',
+  },
+  'OGINCE-FRT-2007': {
+    id: 'OGINCE-FRT-2007',
+    citation:
+      'Ogince M, Hall T, Robinson K, Blackmore AM. The diagnostic validity of the cervical flexion–rotation test in C1/2-related cervicogenic headache. Man Ther 2007;12(3):256–262.',
+    doi: '10.1016/j.math.2006.06.016',
+    level: 'Cohort',
+  },
+  'JOSPT-ACHILLES-2018': {
+    id: 'JOSPT-ACHILLES-2018',
+    citation:
+      'Martin RL et al. Achilles Pain, Stiffness, and Muscle Power Deficits: Midportion Achilles Tendinopathy Revision 2018. Clinical Practice Guidelines Linked to the ICF. JOSPT 2018;48(5):A1–A38.',
+    doi: '10.2519/jospt.2018.0302',
+    url: 'https://www.jospt.org/doi/10.2519/jospt.2018.0302',
+    level: 'CPG',
+  },
+  'ALFREDSON-1998': {
+    id: 'ALFREDSON-1998',
+    citation:
+      'Alfredson H, Pietilä T, Jonsson P, Lorentzon R. Heavy-load eccentric calf muscle training for the treatment of chronic Achilles tendinosis. Am J Sports Med 1998;26(3):360–366.',
+    doi: '10.1177/03635465980260030301',
+    level: 'RCT',
+  },
+  'BEYER-2015': {
+    id: 'BEYER-2015',
+    citation:
+      'Beyer R et al. Heavy slow resistance versus eccentric training as treatment for Achilles tendinopathy: a randomized controlled trial. Am J Sports Med 2015;43(7):1704–1711.',
+    doi: '10.1177/0363546515584760',
+    level: 'RCT',
+  },
+  'SILBERNAGEL-2007': {
+    id: 'SILBERNAGEL-2007',
+    citation:
+      'Silbernagel KG, Thomeé R, Eriksson BI, Karlsson J. Continued sports activity, using a pain-monitoring model, during rehabilitation in patients with Achilles tendinopathy: a randomized controlled study. Am J Sports Med 2007;35(6):897–906.',
+    doi: '10.1177/0363546506298279',
+    level: 'RCT',
+  },
+  'MAFFULLI-2003': {
+    id: 'MAFFULLI-2003',
+    citation:
+      'Maffulli N, Kenward MG, Testa V, Capasso G, Regine R, King JB. Clinical diagnosis of Achilles tendinopathy with tendinosis. Clin J Sport Med 2003;13(1):11–15.',
+    doi: '10.1097/00042752-200301000-00003',
+    level: 'Cohort',
+  },
+  'RACGP-OA-2018': {
+    id: 'RACGP-OA-2018',
+    citation:
+      'Royal Australian College of General Practitioners. Guideline for the management of knee and hip osteoarthritis. 2nd ed. East Melbourne: RACGP 2018.',
+    url: 'https://www.racgp.org.au/clinical-resources/clinical-guidelines/key-racgp-guidelines/view-all-racgp-guidelines/knee-and-hip-osteoarthritis',
+    level: 'CPG',
+  },
+  'OARSI-2019': {
+    id: 'OARSI-2019',
+    citation:
+      'Bannuru RR et al. OARSI guidelines for the non-surgical management of knee, hip, and polyarticular osteoarthritis. Osteoarthritis Cartilage 2019;27(11):1578–1589.',
+    doi: '10.1016/j.joca.2019.06.011',
+    level: 'CPG',
+  },
+  'NICE-NG226': {
+    id: 'NICE-NG226',
+    citation:
+      'NICE. Osteoarthritis in over 16s: diagnosis and management. NICE guideline NG226 (2022).',
+    url: 'https://www.nice.org.uk/guidance/ng226',
+    level: 'CPG',
+  },
+  'GLAD-SKOU-2017': {
+    id: 'GLAD-SKOU-2017',
+    citation:
+      'Skou ST, Roos EM. Good Life with osteoArthritis in Denmark (GLA:D): evidence-based education and supervised neuromuscular exercise delivered by certified physiotherapists nationwide. BMC Musculoskelet Disord 2017;18:72.',
+    doi: '10.1186/s12891-017-1439-y',
+    level: 'Cohort',
+  },
+  'ACR-ALTMAN-1986': {
+    id: 'ACR-ALTMAN-1986',
+    citation:
+      'Altman R et al. Development of criteria for the classification and reporting of osteoarthritis: classification of osteoarthritis of the knee. Arthritis Rheum 1986;29(8):1039–1049.',
+    doi: '10.1002/art.1780290816',
+    level: 'Cohort',
+  },
+  'DOBSON-2013': {
+    id: 'DOBSON-2013',
+    citation:
+      'Dobson F et al. OARSI recommended performance-based tests to assess physical function in people diagnosed with hip or knee osteoarthritis. Osteoarthritis Cartilage 2013;21(8):1042–1052.',
+    doi: '10.1016/j.joca.2013.05.002',
+    level: 'Expert',
+  },
+  'RESTORE-2023': {
+    id: 'RESTORE-2023',
+    citation:
+      'Kent P et al. Cognitive functional therapy with or without movement sensor biofeedback versus usual care for chronic, disabling low back pain (RESTORE): a randomised, controlled, three-arm, parallel group, phase 3 clinical trial. Lancet 2023;401(10391):1866–1877.',
+    doi: '10.1016/S0140-6736(23)00441-5',
+    level: 'RCT',
+  },
   'COOK-HEGEDUS-2013': {
     id: 'COOK-HEGEDUS-2013',
     citation: 'Cook CE, Hegedus EJ. Orthopedic Physical Examination Tests: An Evidence-Based Approach. 2nd ed. Pearson 2013.',

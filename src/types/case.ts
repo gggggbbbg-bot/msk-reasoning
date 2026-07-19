@@ -23,7 +23,7 @@ export const REGION_META: Record<Region, { id: Region; label: string; short: str
     id: 'ankle',
     label: 'Ankle',
     short: 'Ankle',
-    description: 'Lateral ligament sprain, syndesmotic injury. Ottawa rules, return-to-sport.',
+    description: 'Lateral ligament sprain, syndesmotic injury, Achilles tendinopathy. Ottawa rules, return-to-sport.',
   },
   knee: {
     id: 'knee',
